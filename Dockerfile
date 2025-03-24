@@ -1,7 +1,7 @@
 FROM python:3.9
 
 # Create a non-root user
-RUN useradd -m app
+RUN useradd -m appuser
 
 WORKDIR /code
 
